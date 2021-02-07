@@ -1,0 +1,12 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem;
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
+.todo-item:last-child {
+  border-bottom: 1px solid gray;
+}
